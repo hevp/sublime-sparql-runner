@@ -12,17 +12,17 @@
                 "children":
                 [
                     {
-                        "caption": "SPARQLRunner",
+                        "caption": "SPARQL Runner Improved",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/SPARQLRunner/SPARQLRunner.sublime-settings"},
+                                "args": {"file": "${packages}/SPARQLRunnerImproved/SPARQLRunnerImproved.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/SPARQLRunner.sublime-settings"},
+                                "args": {"file": "${packages}/User/SPARQLRunnerImproved.sublime-settings"},
                                 "caption": "Settings – User"
                             }
                         ]
