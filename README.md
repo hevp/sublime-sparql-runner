@@ -1,7 +1,7 @@
-Sublime SPARQL Runner Improved
-==============================
+Sublime SPARQL Runner
+=====================
 
-A Sublime Text 2/3 plugin to run SPARQL queries directly inside Sublime.
+A Sublime Text 2/3 plugin to run SPARQL queries directly inside Sublime Text.
 
 Based on the original [SPARQL Runner package](https://github.com/cezarsa/sublime-sparql-runner) by [cezarsa](https://github.com/cezarsa).
 
@@ -32,7 +32,7 @@ Usage
         * Parameter name (optional, leave empty to skip)
         * Parameter value (optional)
     * Multiple parameters can be added by simply repeating the name and value prompts
-* To run a query choose `SPARQL: Run query`. SPARQL Runner Improved will run the query against the current endpoint. It will consider either the **selected text** or the **entire file** as the SPARQL query.
+* To run a query choose `SPARQL: Run query`. SPARQL Runner will run the query against the current endpoint. It will consider either the **selected text** or the **entire file** as the SPARQL query.
 
 If you want to add a key binding to run queries, open your "Default.sublime-keymap" and add:
 
@@ -70,4 +70,4 @@ A typical configuration file looks as follows:
 }
 ```
 
-* Further config options can be found in `Preferences` -> `Package Settings` -> `SPARQL Runner Improved` -> `Settings`
+* Further config options can be found in `Preferences` -> `Package Settings` -> `SPARQL Runner` -> `Settings`

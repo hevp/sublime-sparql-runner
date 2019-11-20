@@ -19,7 +19,7 @@ import sublime_plugin
 
 PROGRESS = ['-', '\\', '|', '/']
 PREFIX_REGEX = re.compile(r'^\s*prefix\s+(.*?)\s+<(.*?)>\s*$', re.MULTILINE | re.IGNORECASE)
-SETTINGS_FILE = 'SPARQLRunnerImproved.sublime-settings'
+SETTINGS_FILE = 'SPARQLRunner.sublime-settings'
 
 def get_endpoint_name(name, endpoints):
     """ Returns endpoint name if exists (case-insensitive) """
